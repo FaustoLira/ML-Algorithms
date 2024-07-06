@@ -1,4 +1,4 @@
-# Regression ML-Algorithms
+# Weather forecast in Seoul, South Korea (Regression)
 
 In this project I use machine learning techniques to predict the average temperature for the next day in Seoul, South Korea.
 
