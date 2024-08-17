@@ -1,7 +1,39 @@
 # Weather forecast in Seoul, South Korea (Regression)
 
-In this project I use machine learning techniques to predict the average temperature for the next day in Seoul, South Korea.
+## Introduction
 
-The dataset is composed of several forecast variables for the next day, maximum and minimum temperatures of the current day, and auxiliary geographic variables collected for a period of 5 years by the Korean Meteorological Service in Seoul, South Korea. The output variable is the next day's average temperature (NextDayAvTemp).
+In this project, I use machine learning techniques to predict the average temperature for the next day in Seoul, South Korea.
 
-The main result of this project is the use of different techniques in the data preparation and modeling stages.
+The dataset is composed of several forecast variables for the next day, maximum and minimum temperatures of the current day, 
+and auxiliary geographic variables were collected over five years by the Korean Meteorological Service in Seoul, South Korea. 
+The output variable is the next day's average temperature (NextDayAvTemp).
+
+The main result of this project is the use of different techniques in the data preparation and modelling stages.
+
+## Technical Details
+
+- **Dataset**: The dataset weather_data.csv contains around 7,000 rows and 23 columns. 
+-**Data Exploration**: Performed basic data exploration, such as checking data types, null values, and duplicates.
+- **Feature Engineering**: Includes one-hot encoding for categorical variables and Min-Max Scaling for numerical data.
+- **Imputation**: Missing values are imputed using K-Nearest Neighbors (KNN).
+- **Feature Selection**: Selected features using statistical methods to enhance model performance.
+- **Models**: Various regression models from Scikit-learn and xgboost packages are implemented, including:
+  - Linear Regression
+  - Ridge Regression
+  - Lasso Regression
+  - ElasticNet Regression
+  - Decision Tree Regressor
+  - Random Forest Regressor
+  - Gradient Boosting Regressor
+  - AdaBoost Regressor
+  - Support Vector Regressor
+  - K-Nearest Neighbors Regressor
+  - Neural Network Regressor
+  - Gaussian Process Regressor
+  - XGBoost Regressor
+- **Evaluation**: Models are ranked using metrics such as r-square score, Mean Absolute Error (MAE), and Mean Squared Error (MSE). 
+Additionally, learning curves are plotted to check for potential overfitting.
+
+## Dependency Versions
+
+The Python environment used in this project can be set up in Anaconda using the python_env.yaml file.
