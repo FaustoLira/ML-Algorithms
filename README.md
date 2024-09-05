@@ -1,4 +1,4 @@
-# Weather forecast in Seoul, South Korea (Regression)
+# Weather forecast in Seoul, South Korea
 
 ## Introduction
 
