@@ -40,7 +40,7 @@ Achieved 93% coefficient of determination performance, delivering highly accurat
 
 ## Visuals
 
-
+Table, histogram, and scatter plot.
 
 ## Dependency Versions
 
