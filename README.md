@@ -34,6 +34,14 @@ The main result of this project is the use of different techniques in the data p
 - **Evaluation**: Models are ranked using metrics such as r-square score, Mean Absolute Error (MAE), and Mean Squared Error (MSE). 
 Additionally, learning curves are plotted to check for potential overfitting.
 
+## Impact
+
+Achieved 93% coefficient of determination performance, delivering highly accurate weather forecasts that support better planning and decision-making for local authorities and businesses in Seoul.
+
+## Visuals
+
+
+
 ## Dependency Versions
 
 The Python environment used in this project can be set up in Anaconda using the python_env.yaml file.
